@@ -17,18 +17,18 @@ This article describes how to publish new content to your Sitecore content manag
 
 - Know how to log in to your Sitecore content management website. The instructions are found in the "Sitecore Cloud management site" section in [Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/)
 
-- Familiarity with [Deploying to Sitecore Cloud using FTP](/how-to/deploy-to-sitecore-cloud-using-ftp/). If you content includes changes that are dependent on any custom code, deploy your updated code before publishing any new content.
+- Familiarity with [Deploying to Sitecore Cloud using FTP](/how-to/deploy-to-sitecore-cloud-using-ftp/). If your content includes changes that are dependent on any custom code, deploy your updated code before publishing any new content.
 
-### Publish to Sitecore Cloud
+### Publish to Sitecore
 
 1. Log in to your Sitecore content management site.
 
 2. In the Sitecore dashboard, click **Content Editor**.
 
-3. In the content editor, make any content changes that you wish to make.
+3. Click on the Publish tab found at the top of the toolbar.
 
-4. Click on the Publish tab found at the top of the toolbar. In the tab, click the **Publish** icon.
+4. In the tab, click the small arrow next to the word **Publish**. In the dropdown menu, select **Publish site**.
 
 5. Select **Publish Site** and select the publishing type. After you've selected the publishing type, click **Publish**.
 
-6. In the pop up box, check both **Restart the Sitecore Client** and **Restart the Sitecore Server**, then **click** the close button.
+6. After publishing is complete, check both **Restart the Sitecore Client** and **Restart the Sitecore Server**, then click **close**.
