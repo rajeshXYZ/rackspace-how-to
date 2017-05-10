@@ -31,6 +31,9 @@ For more information about how Cloud Networks works with RackConnect v2.0, see t
 
 ### QoS policies
 
+We have 2 different type of RackConnect v3.0 gateways i.e Software GW and Hardware GW. Note that QoS get's applied only to Software GW.
+RCv3 based cloud accounts gets 1Gbps per VLAN in Hardware gateways and client's who needs more than 1gbps can acheive that using RCv3 premium in RCv3 based on Hardware Gateways. All new RCV3 VLANS gets deployed on Hardware gateways by default.
+
 Traffic across a RackConnect v3.0 link between cloud and dedicated environments has its bandwidth limited by quality of service (QoS) policies. By default, these QoS policies are set to limit bandwidth throughput to 100 Mbps (megabits per second), but this limit may be increased on a case-by-case basis. If you need this value increased, [contact us](/how-to/support).
 
 As with RackConnect v2.0, RackConnect v3.0 bandwidth might be limited by the capabilities or QoS settings of the Cloud Servers flavors that you are running, your network device's capabilities, and your dedicated server's capabilities.
