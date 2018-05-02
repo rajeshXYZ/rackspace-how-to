@@ -37,10 +37,18 @@ A single cloud account cannot be associated with both a RackConnect v3.0 configu
 
 - Not all of the Rackspace public cloud products are compatible with RackConnect v3.0 cloud servers. To verify which offerings are supported, see [RackConnect v3.0 compatibility](/how-to/rackconnect-v30-compatibility).
 
-### Note on types of RackConnect Gateways
-- We have two different types of RackConnect Gateways in RackConnect v3. Software Gateways and Hardware Gateways. Hardware Gateways are much better than the software Gateways due to the translation done in hardware ASIC layer. All new clients who implement RackConnect or who migrates to RackConnect v3 from v2 get's Hardware Gateway free of charge. If you have RackConnect v3 on software Gateway then you can ask us to move to Hardware Gateway free of charge too! (Does not require any changes on your part)
+### Types of RackConnect Gateways
+
+- RackConnect v3.0 has two types of gateways - software gateways and hardware gateways. Hardware gateways are better than
+software gateways because of the translation that is done in the hardware Application-Specific Integrated Circuit (ASIC) layer. All clients who implement RackConnect or who migrate to RackConnect v3.0 from v2.0 receive hardware gateways free 
+of charge. If you have RackConnect v3.0 on software gateways, you can ask Rackspace to move you to hardware gateways 
+free of charge. Moving to hardware gateways does not require any changes on your part.
  
-- Traffic that traverses across the RackConnect v3.0 link between your cloud and dedicated environments is bandwidth-limited by Quality of Service (QoS) policies only on Software Gateway. By default, these QoS policies are set to limit bandwidth throughput to 100 Mbps (megabits per second), but with Rackspace approval, they may be increased. If you have need for more than 100 Mbps of bandwidth, [contact us](/how-to/support) for details about potential one-off solutions. Note that Hardware Gateways do not have this restriction.
+- Traffic that traverses the RackConnect v3.0 link between your cloud and dedicated environments is bandwidth-limited by 
+Quality of Service (QoS) policies only on software gateways. By default, these QoS policies are set to limit 
+bandwidth throughput to 100 megabits per second (Mbps), but with Rackspace approval, they may be increased. 
+If you need more than 100 Mbps of bandwidth, [contact us](/how-to/support/) for details about potential one-off solutions. 
+Note that hardware gateways do not have this restriction.
 
 - As with RackConnect v2.0, RackConnect v3.0 bandwidth might be limited by the capabilities of the cloud servers flavors that you are running, your network device's capabilities, and your dedicated server's capabilities.
 
