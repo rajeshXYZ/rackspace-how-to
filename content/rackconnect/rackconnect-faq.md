@@ -44,13 +44,13 @@ network devices that are compatible with RackConnect v3.0, see
 #### Does RackConnect v3.0 support IPv6?
 
 Yes with few limitations.
-- RackConnect v3 will only allow 1 cloud network attached to the cloud server
-- RackConnect v3 will allow you to attach an IPv6 networks
-- Cloud Networks is not dual stack (You cannot create a cloud network that assigns IPv4 + IPv6 on the same interface)
+- RackConnect v3 allows only one cloud network to be attached to the cloud server.
+- RackConnect v3 allows you to attach IPv6 networks.
+- Cloud Networks is not a dual stack, so you cannot create a cloud network that assigns IPv4 and IPv6 addresses on the same interface.
 
-If you are starting fresh then configure the firewall to use IPv6, assign an IPv6 IP block for the inside segment and then use that information to deploy a new RackConnect v3 vlan.
+If you are starting fresh, configure the firewall to use an IPv6 address, assign an IPv6 IP block for the inside segment, and use that information to deploy a new RackConnect v3 vlan.
 
-Given the above, you can deploy a new RCV3 vlan that is IPv6 and use that on your cloud server.
+Using the preceding information, you can deploy a new RCV3 vlan with an IPv6 address to use on your cloud server.
 
 #### Does RackConnect v3.0 support Managed Colocation environments?
 
